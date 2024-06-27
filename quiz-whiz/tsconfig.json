@@ -12,6 +12,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+
+    // Load types
+    "types": ["vitest/globals"],
+
+    // Editor support
     "plugins": [
       {
         "name": "next"
