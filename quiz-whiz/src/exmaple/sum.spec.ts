@@ -1,4 +1,4 @@
-import { expect, test} from 'vitest';
+import { expect, test } from 'vitest';
 import { sum } from './sum';
 
 test('sum', () => {
