@@ -15,18 +15,8 @@
       "**/package-lock.json",
       "./dist/**",
       "./public/**",
-      "./.plasmo/**",
       "./build/**"
     ]
-  },
-  "organizeImports": {
-    "enabled": true
-  },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true
-    }
   },
   "javascript": {
     "formatter": {
@@ -39,6 +29,19 @@
       "bracketSameLine": false,
       "quoteStyle": "single",
       "attributePosition": "auto"
+    }
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "useExhaustiveDependencies": "error",
+        "useHookAtTopLevel": "error"
+      }
     }
   }
 }
