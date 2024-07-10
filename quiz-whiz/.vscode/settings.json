@@ -1,4 +1,9 @@
 {
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "search.exclude": {
+    "package-lock.json": true
+  },
   "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
