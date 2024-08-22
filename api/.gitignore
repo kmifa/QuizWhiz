@@ -1,0 +1,6 @@
+bin/
+test-coverage/
+endpoints-config-id
+pb/google
+pb/protoc-gen-openapiv2
+pb/validate
